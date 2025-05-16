@@ -1,0 +1,13 @@
+flask
+flask-admin
+flask-sqlalchemy
+flask-cors
+flask-migrate
+flask-session
+flask-socketio
+flask_mail
+flask-marshmallow
+python-dotenv
+redis
+marshmallow-sqlalchemy
+pytest

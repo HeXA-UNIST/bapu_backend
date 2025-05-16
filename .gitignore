@@ -1,0 +1,5 @@
+__pycache__
+instance
+flask_session
+.env
+.pytest_cache
