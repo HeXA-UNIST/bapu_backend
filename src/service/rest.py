@@ -27,8 +27,8 @@ def get_rest_info():
             "restaurant_name": rest.rest_name,
             "meal_type": rest.meal_type,
             "price": rest.price,
-            "open_time": rest.open_time,
-            "close_time": rest.close_time,
+            "open_time": rest.open_time.strftime("%H:%M"),
+            "close_time": rest.close_time.strftime("%H:%M"),
         }
         for rest in rests
     ]
