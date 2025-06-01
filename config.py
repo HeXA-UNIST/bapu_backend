@@ -1,5 +1,4 @@
 import os
-from redis import Redis
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -19,7 +18,7 @@ class ProductionConfig(Config):
 
 
 class DevelopmentConfig(Config):
-    SQLALCHEMY_DATABASE_URI = "sqlite:///./development_db.sqlite3"
+    SQLALCHEMY_DATABASE_URI = "sqlite:///./development_db.db"
     SESSION_TYPE = "filesystem"
     DEBUG = True
 

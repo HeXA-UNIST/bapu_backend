@@ -15,7 +15,7 @@ def create_app(config: Config):
     ma.init_app(app)
     admin.init_app(app)
 
-    with app.app_context():
-        db.create_all()
+    # with app.app_context():
+    #     db.create_all()
 
     return app
